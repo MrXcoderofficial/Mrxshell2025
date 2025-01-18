@@ -2,7 +2,7 @@ Welcome to Mr.X's PHP Web Shell Repository
 
 About Me
 
-I am Mr.X, a seasoned developer with over 15 years of experience in creating a variety of tools and scripts in Python, Go, HTML, and PHP. My expertise lies in developing powerful solutions such as:
+I am Mr.X, a seasoned developer with over 15 years of experience in creating a variety of tools and scripts in Python, Go, HTML, and PHP. My expertise in developing powerful solutions such as:
 
 * Email Bouncer
 
